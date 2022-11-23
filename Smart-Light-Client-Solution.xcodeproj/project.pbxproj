@@ -11,6 +11,13 @@
 		E2D41703292E15C600138374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41702292E15C600138374 /* ContentView.swift */; };
 		E2D41705292E15C700138374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D41704292E15C700138374 /* Assets.xcassets */; };
 		E2D41708292E15C700138374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D41707292E15C700138374 /* Preview Assets.xcassets */; };
+		E2D41710292E15F900138374 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4170F292E15F900138374 /* HomeView.swift */; };
+		E2D41712292E161000138374 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41711292E161000138374 /* DiscoverView.swift */; };
+		E2D41714292E162100138374 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41713292E162100138374 /* FAQView.swift */; };
+		E2D41716292E162D00138374 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41715292E162D00138374 /* ProfileView.swift */; };
+		E2D41719292E166C00138374 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41718292E166C00138374 /* UserModel.swift */; };
+		E2D4171B292E169A00138374 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4171A292E169A00138374 /* DeviceModel.swift */; };
+		E2D4171E292E16CA00138374 /* BackendSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4171D292E16CA00138374 /* BackendSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E2D41702292E15C600138374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2D41704292E15C700138374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D41707292E15C700138374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2D4170F292E15F900138374 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2D41711292E161000138374 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		E2D41713292E162100138374 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		E2D41715292E162D00138374 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E2D41718292E166C00138374 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E2D4171A292E169A00138374 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		E2D4171D292E16CA00138374 /* BackendSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,9 @@
 		E2D416FF292E15C600138374 /* Smart-Light-Client-Solution */ = {
 			isa = PBXGroup;
 			children = (
+				E2D4171C292E16B800138374 /* Data */,
+				E2D41717292E165400138374 /* Models */,
+				E2D4170E292E15EE00138374 /* Views */,
 				E2D41700292E15C600138374 /* Smart_Light_Client_SolutionApp.swift */,
 				E2D41702292E15C600138374 /* ContentView.swift */,
 				E2D41704292E15C700138374 /* Assets.xcassets */,
@@ -65,6 +82,34 @@
 				E2D41707292E15C700138374 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2D4170E292E15EE00138374 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2D4170F292E15F900138374 /* HomeView.swift */,
+				E2D41711292E161000138374 /* DiscoverView.swift */,
+				E2D41713292E162100138374 /* FAQView.swift */,
+				E2D41715292E162D00138374 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2D41717292E165400138374 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2D41718292E166C00138374 /* UserModel.swift */,
+				E2D4171A292E169A00138374 /* DeviceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2D4171C292E16B800138374 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E2D4171D292E16CA00138374 /* BackendSettings.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D41710292E15F900138374 /* HomeView.swift in Sources */,
+				E2D41719292E166C00138374 /* UserModel.swift in Sources */,
 				E2D41703292E15C600138374 /* ContentView.swift in Sources */,
 				E2D41701292E15C600138374 /* Smart_Light_Client_SolutionApp.swift in Sources */,
+				E2D41714292E162100138374 /* FAQView.swift in Sources */,
+				E2D4171B292E169A00138374 /* DeviceModel.swift in Sources */,
+				E2D41716292E162D00138374 /* ProfileView.swift in Sources */,
+				E2D41712292E161000138374 /* DiscoverView.swift in Sources */,
+				E2D4171E292E16CA00138374 /* BackendSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
