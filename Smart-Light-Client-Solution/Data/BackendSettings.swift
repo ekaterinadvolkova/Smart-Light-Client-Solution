@@ -8,4 +8,6 @@
 
 import Foundation
 
-var backendURL = "http://iotpro.hopto.org/"
+var backendURL = "http://iotpro.hopto.org/index.php?"
+//off=OFF
+//on=ON
