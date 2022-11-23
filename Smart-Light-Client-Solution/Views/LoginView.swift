@@ -4,6 +4,7 @@
 //
 //  Created by Ekaterina Volkova on 23.11.2022.
 //
+import SwiftUI
 
 struct LoginView: View {
     @Binding var tabSelection: Int

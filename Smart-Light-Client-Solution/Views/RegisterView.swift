@@ -4,6 +4,7 @@
 //
 //  Created by Ekaterina Volkova on 23.11.2022.
 //
+import SwiftUI
 
 struct RegisterView: View {
     @Binding var tabSelection: Int
@@ -11,7 +12,7 @@ struct RegisterView: View {
     var body: some View {
         NavigationView {
             ScrollView(showsIndicators: false) {
-                Text("Register")
+                Text("Login")
                     .font(.title3)
             }
         }
