@@ -6,5 +6,14 @@ target 'Smart-Light-Client-Solution' do
   use_frameworks!
 
   # Pods for Smart-Light-Client-Solution
+pod 'Appirater'
+
+#Firebase
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+
 
 end
