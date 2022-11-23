@@ -18,6 +18,9 @@
 		E2D41719292E166C00138374 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41718292E166C00138374 /* UserModel.swift */; };
 		E2D4171B292E169A00138374 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4171A292E169A00138374 /* DeviceModel.swift */; };
 		E2D4171E292E16CA00138374 /* BackendSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4171D292E16CA00138374 /* BackendSettings.swift */; };
+		E2D41723292E1DCF00138374 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D41722292E1DCF00138374 /* GoogleService-Info.plist */; };
+		E2D41725292E217F00138374 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41724292E217F00138374 /* LoginView.swift */; };
+		E2D41727292E218900138374 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41726292E218900138374 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		E2D41718292E166C00138374 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E2D4171A292E169A00138374 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		E2D4171D292E16CA00138374 /* BackendSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendSettings.swift; sourceTree = "<group>"; };
+		E2D41722292E1DCF00138374 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2D41724292E217F00138374 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E2D41726292E218900138374 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,8 @@
 				E2D41711292E161000138374 /* DiscoverView.swift */,
 				E2D41713292E162100138374 /* FAQView.swift */,
 				E2D41715292E162D00138374 /* ProfileView.swift */,
+				E2D41724292E217F00138374 /* LoginView.swift */,
+				E2D41726292E218900138374 /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 		E2D4171C292E16B800138374 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E2D41722292E1DCF00138374 /* GoogleService-Info.plist */,
 				E2D4171D292E16CA00138374 /* BackendSettings.swift */,
 			);
 			path = Data;
@@ -172,6 +181,7 @@
 			files = (
 				E2D41708292E15C700138374 /* Preview Assets.xcassets in Resources */,
 				E2D41705292E15C700138374 /* Assets.xcassets in Resources */,
+				E2D41723292E1DCF00138374 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D41727292E218900138374 /* RegisterView.swift in Sources */,
 				E2D41710292E15F900138374 /* HomeView.swift in Sources */,
 				E2D41719292E166C00138374 /* UserModel.swift in Sources */,
 				E2D41703292E15C600138374 /* ContentView.swift in Sources */,
@@ -190,6 +201,7 @@
 				E2D4171B292E169A00138374 /* DeviceModel.swift in Sources */,
 				E2D41716292E162D00138374 /* ProfileView.swift in Sources */,
 				E2D41712292E161000138374 /* DiscoverView.swift in Sources */,
+				E2D41725292E217F00138374 /* LoginView.swift in Sources */,
 				E2D4171E292E16CA00138374 /* BackendSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
