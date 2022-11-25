@@ -9,5 +9,5 @@
 import Foundation
 
 var backendURL = "http://iotpro.hopto.org/index.php?"
-//off=OFF
-//on=ON
+var off = "off=OFF"
+var on = "on=ON"
