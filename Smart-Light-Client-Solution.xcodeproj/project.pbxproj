@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E288729229376BE500445AD1 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = E288729129376BE500445AD1 /* Readme.md */; };
+		E288729229376BE500445AD1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E288729129376BE500445AD1 /* README.md */; };
 		E2D41701292E15C600138374 /* Smart_Light_Client_SolutionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41700292E15C600138374 /* Smart_Light_Client_SolutionApp.swift */; };
 		E2D41703292E15C600138374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D41702292E15C600138374 /* ContentView.swift */; };
 		E2D41705292E15C700138374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D41704292E15C700138374 /* Assets.xcassets */; };
@@ -31,7 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E288729129376BE500445AD1 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		E288729129376BE500445AD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E28872932937701A00445AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E2D416FD292E15C600138374 /* Smart-Light-Client-Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart-Light-Client-Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D41700292E15C600138374 /* Smart_Light_Client_SolutionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Light_Client_SolutionApp.swift; sourceTree = "<group>"; };
 		E2D41702292E15C600138374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		E2D416F4292E15C600138374 = {
 			isa = PBXGroup;
 			children = (
+				E288729129376BE500445AD1 /* README.md */,
 				E2D416FF292E15C600138374 /* Smart-Light-Client-Solution */,
 				E2D416FE292E15C600138374 /* Products */,
 			);
@@ -85,6 +87,7 @@
 		E2D416FF292E15C600138374 /* Smart-Light-Client-Solution */ = {
 			isa = PBXGroup;
 			children = (
+				E28872932937701A00445AD1 /* Info.plist */,
 				E2D417312930D4CC00138374 /* Controller */,
 				E2D4171C292E16B800138374 /* Data */,
 				E2D41717292E165400138374 /* Models */,
@@ -93,7 +96,6 @@
 				E2D41702292E15C600138374 /* ContentView.swift */,
 				E2D41704292E15C700138374 /* Assets.xcassets */,
 				E2D41706292E15C700138374 /* Preview Content */,
-				E288729129376BE500445AD1 /* Readme.md */,
 			);
 			path = "Smart-Light-Client-Solution";
 			sourceTree = "<group>";
@@ -215,7 +217,7 @@
 			files = (
 				E2D41708292E15C700138374 /* Preview Assets.xcassets in Resources */,
 				E2D41705292E15C700138374 /* Assets.xcassets in Resources */,
-				E288729229376BE500445AD1 /* Readme.md in Resources */,
+				E288729229376BE500445AD1 /* README.md in Resources */,
 				E2D41723292E1DCF00138374 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +373,7 @@
 				DEVELOPMENT_TEAM = C42FK5XNY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Light-Client-Solution/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -400,6 +403,7 @@
 				DEVELOPMENT_TEAM = C42FK5XNY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Light-Client-Solution/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
